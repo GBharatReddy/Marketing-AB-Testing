@@ -30,6 +30,33 @@ Determine whether the marketing advertisement improves user conversion compared 
 * Variance testing using Levene's test
 * Mann-Whitney U test
 
+## 📊 Exploratory Analysis
+
+### Treatment and Control Groups
+
+The experiment consists of an **Ad (Treatment) group** and a **PSA (Control) group**.
+
+![Treatment vs Control Groups](Images/Treatment%20vs%20Control%20groups.png)
+
+### Conversion by Test Group
+
+Conversion rates were compared between the Ad and PSA groups to evaluate the effectiveness of the marketing advertisement.
+
+![Conversion by Group](Images/Conversion_by_group.png)
+
+### Conversion by Day
+
+Conversion rates were analysed across different days to identify potential differences in user response based on the day of advertisement exposure.
+
+![Conversion by Day](Images/Conversion_by_day.png)
+
+### Conversion by Hour
+
+Conversion rates were also analysed across different hours to identify potential patterns in conversion behaviour.
+
+![Conversion by Hour](Images/Conversion_by_hour.png)
+
+
 ## 📊 Key Findings
 
 * The Ad group achieved a higher conversion rate than the PSA control group.
@@ -54,7 +81,7 @@ The analysis indicates that advertisement exposure is associated with higher con
 
 * `Marketing_AB_Testing.ipynb` — Complete Python analysis
 * `marketing_AB.csv` — Dataset
-* `images/` — Selected visualizations
+* `images/` — Selected visualizations used in this README
 
 ## 👤 Author
 
